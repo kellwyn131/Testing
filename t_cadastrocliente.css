@@ -241,7 +241,7 @@ input::-webkit-inner-spin-button {
     }
    
 }
-@media screen and (max-width: 345px) {
+@media screen and (max-width: 400px) {
     .container{
         width: 388px;
     }
