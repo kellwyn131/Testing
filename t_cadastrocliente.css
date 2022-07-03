@@ -241,3 +241,56 @@ input::-webkit-inner-spin-button {
     }
    
 }
+@media screen and (max-width: 389px) {
+    .container{
+        width: 388px;
+    }
+    .fonteareabranca {
+        font-size: 10px;
+       padding-right: 80px;
+       line-height: 15px;
+    }
+    .inputesq {
+        margin-left: 65px;
+        width: 18vw; height: 3vh;
+        font-size: 10px;
+    }
+    .inputdir {
+        margin-left: 55vw;
+        width: 18vw; height: 3vh;
+        font-size: 10px;
+    }
+    .fundoretangulo {
+        width: 75vw;
+    }
+   .logo {
+    width: 75px; height: 50px;
+    padding-top: 25px;
+   }
+   .npju {
+    font-size: 20px;
+    top: 60px;
+   }
+   .botao {
+    top: 120px;
+    font-size: 12px;
+   }
+   .botao2 {
+    font-size: 12px;
+    width: 22vw;
+    bottom: 150px;
+   }
+   .logouniamerica {
+    width: 125px; height: 50px;
+   }
+   .Direitosaut {
+    padding-right: 50px;
+    padding-bottom: 10px;
+    width: 100px;
+    font-size: 10px;
+   }
+   .cabecalho {
+    font-size: 20px;
+    padding-left: 30px;
+   }
+}
