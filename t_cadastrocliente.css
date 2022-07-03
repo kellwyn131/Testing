@@ -241,22 +241,24 @@ input::-webkit-inner-spin-button {
     }
    
 }
-@media screen and (max-width: 389px) {
+@media screen and (max-width: 345px) {
     .container{
         width: 388px;
     }
     .fonteareabranca {
         font-size: 10px;
-       padding-right: 80px;
+        padding-left: 5px;
+        padding-right: 110px;
+       width: 20px;
        line-height: 15px;
     }
     .inputesq {
-        margin-left: 65px;
+        margin-left: 40px;
         width: 18vw; height: 3vh;
         font-size: 10px;
     }
     .inputdir {
-        margin-left: 55vw;
+        margin-left: 50vw;
         width: 18vw; height: 3vh;
         font-size: 10px;
     }
