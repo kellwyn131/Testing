@@ -1,0 +1,297 @@
+@import url('https://fonts.googleapis.com/css2?family=Ovo&family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #2F3032;
+}
+
+/*Cabeçalho*/
+#lupa {
+    position: absolute; left: 50px; top: 0px;
+    width: 40px;
+    height: 40px;
+    padding-top: 2.5vh;
+
+    margin-left: 0px;
+}
+
+.busca {
+    width: 100%; height: 10vh;
+    border: 0px solid red;
+    display: flex;
+    justify-content: center;
+    
+}
+
+#campo {
+    position: absolute; left: 150px; top: 20px;
+    width: 1200px;
+    height: 31px;
+    
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 28px;
+}
+
+#campo::placeholder {
+    color:#000000;
+    position: absolute;
+    font-weight: bold;
+    margin-top: 8px;
+    margin-left: 6px;
+}
+
+@media screen and (max-width: 428px) {
+    #campo {
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        width: 268px;
+        height: 26px;
+        left: 41px;
+        top: 14px;
+    }
+
+    #campo::placeholder {
+        color:#000000;
+        margin-top: 6px;
+    }
+
+    #lupa {
+        width: 28px;
+        height: 31px;
+        padding-top: 2.5vh;
+
+        margin-left: -1px;
+    }
+}
+
+/*Cabeçalho Lateral*/
+.user {
+    position: absolute;
+    display: flex;
+    justify-content: flex-start;
+    width: 242px;
+    height: 21px;
+    left: -40px;
+    top: 0;
+}
+
+.user address {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+address {
+    position: absolute;
+    color: #FFFFFF;
+    width: 242px;
+    height: 21px;
+    left: 84px;
+    top: 230px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 28px;
+}
+
+address span a {
+    color: white;
+}
+
+.linha {
+    display:inline;
+}
+
+#icone {
+    position: absolute;
+    width: 70px;
+    height: 71px;
+    left: 108px;
+    top: 106px;
+}
+
+#second1 {
+    font-family: "Roboto";
+    position: absolute;
+    width: 120px;
+    height: 26px;
+    top: 290px;
+    left: 12vh;
+    font-size: 13px;
+
+    background: #ffffff;
+    border: 1px solid #FFFFFF;
+    border-radius: 3px;
+  }
+  
+  #second2 {
+    font-family: "Roboto";
+    position: absolute;
+    width: 120px;
+    height: 26px;
+    top: 328px;
+    left: 12vh;
+    font-size: 13px;
+    
+    color: #FFF;
+    background: #ffffff;
+    border: 1px solid #FFFFFF;
+    border-radius: 3px;
+}
+
+#second3 {
+    font-family: "Roboto";
+    position: absolute;
+    width: 120px;
+    height: 26px;
+    top: 366px;
+    left: 12vh;
+    font-size: 13px;
+    
+    color: #FFF;
+    background: #ffffff;
+    border: 1px solid #FFFFFF;
+    border-radius: 3px;
+}
+
+
+@media screen and (max-width: 428px) {
+    nav {
+        width: 20px;
+        height: 100%; 
+    }
+
+    address {
+        font-size: 14px;
+        margin-top: -20px;
+        margin-left: 0px;
+        left: 84px;
+    }
+
+    .user {
+        position: absolute;
+        display: flex;
+        justify-content: flex-start;
+        width: 242px;
+        height: 21px;
+        left: -71px;
+        top: -31px;
+    }
+
+    #icone {
+        width: 61px;
+        height: 61px;
+        margin-top: -11px;
+        margin-left: -8px;
+    }
+
+    #second1 {
+        width: 81px;
+        height: 20px;
+        top: 266px;
+        left: 104px;
+        font-size: 10px;
+    }
+
+    #second2 {
+        width: 90px;
+        height: 20px;
+        top: 296px;
+        left: 100px;
+        font-size: 10px;
+    }
+
+    #second3 {
+        width: 90px;
+        height: 20px;
+        top: 326px;
+        left: 100px;
+        font-size: 10px;
+    }
+    
+}
+
+/*Imagem de Fundo*/
+.imagem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw; height: 74vh;
+}
+
+@media screen and (max-width: 428px) {
+    #fundo {
+        flex: 50%;
+        margin-left: -1%;
+        max-width: 81%;    
+    }
+}
+
+/*Conteudo do Footer*/
+.footer-containt {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #2F3032;
+    color: white;
+    text-align: center;
+
+    margin-top: 0vh;
+}
+
+.loguni {
+    position: absolute;
+    display: flex;
+    justify-content: flex;
+}
+
+#log {
+    width: 171px;
+    height: 66px;
+
+    margin-top: -16px;
+    margin-left: 7px;
+}
+
+.direito {
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    position: absolute;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 28px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+@media screen and (max-width: 428px) {
+#log {
+    width: 81px;
+    height: 31px;
+    margin-top: 78px;
+    margin-left: 8px;
+}
+    
+p {
+    font-size: 9px;
+    margin-top: 88px;
+}
+}
+#a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+#logofundo {
+    width: 400px; height: 350px;
+}

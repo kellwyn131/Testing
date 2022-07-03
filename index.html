@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./img/Logo.png">
+    <link rel="stylesheet" href="t_inicial.css">
+    <title>NPJU</title>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <h1 id="np">ESCRITÓRIO JURÍDICO E DE CIDADANIA LUIZ GAMA</h1>
+        </nav>
+    </header><br/>
+
+
+    <div class="formulario">
+        <form>
+            
+            <div class="input-container">
+                <label id="labelEmail">Email</label>
+                <input class="campo" id="campoEmail" type="email"  placeholder="Digite seu Email..." required>
+                
+                <label id="labelSenha">Senha</label>
+                <input class="campo "id="campoSenha" name="inputName" type="password" placeholder="Digite sua Senha..." required><br/>
+
+                <i id="verSenha" class="fa-solid fa-eye"></i>
+                
+            </div>
+          
+            <div class="fox">
+                
+                <div class="senha-cadastro">
+                    <a class ="a" href="#" id="rc">Recuperar Senha</a> 
+                    <a href="t_cadastro.html">Cadastrar</a>
+                </div>
+                <span id="erro"></span>
+                <div class="checki">
+                    <button onclick='login()' id="second2" type="button">
+                          Login
+                    </button>
+                </div>    
+            </div>
+          
+        </form>
+    </div>
+
+    
+        <footer>
+            <div class="loguni">
+                <a href="https://uniamerica.br/" target="_blank"><img src="./img/Uni.png" id="log" alt="Logo Uniamerica" title="Logo Uniamerica"></a>
+            </div>
+
+            <div class="direito">
+                <p>Crafted by NPJU team © COPYRIGHT 2022</p>
+            </div>
+
+            <div class="div-logo">
+                <img class="logo" src="./img/Logo-definitiva2.png" alt="">
+            </div>
+            
+        </footer>
+ 
+        <script src="https://kit.fontawesome.com/f807b5697b.js" crossorigin="anonymous"></script>
+        <script src="t_login.js"></script>
+</body>
+</html>

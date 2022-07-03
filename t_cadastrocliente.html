@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="t_cadastrocliente.css">
+    <title>Cadastro de Clientes</title>
+</head>
+<body>
+    <header><h1 class="cabecalho">Cadastro de Clientes</h1></header>
+
+    <div class="container">
+        <div class="lateral-esq">
+            <img class="logo" src="./img/Logo-definitiva2.png" alt="">
+            <p class="npju">EJLG</p>
+            <button class="botao"> 
+                <a class="a" href="t_home.html">Página Inicial</a>
+            </button>
+        </div>
+        
+        <div class="areabranca">
+            <div class="areabranca">
+                <div class="fundoretangulo">
+                    <p class="fonteareabranca">Nome</p>
+                    <p class="fonteareabranca">Data de Nascimento</p>
+                    <input class="inputesq" type="text" placeholder="Digite seu Nome Completo">
+                    <input class="inputdir" type="date">
+                </div>
+                <div class="fundoretangulo">
+                    <p class="fonteareabranca">RG</p>
+                    <p class="fonteareabranca">CPF</p>
+                    <input class="inputesq" type="number" placeholder="Digite seu RG">
+                    <input class="inputdir" type="number" placeholder="Digite seu CPF">
+                </div>
+                <div class="fundoretangulo">
+                    <p class="fonteareabranca">Email</p>
+                    <p class="fonteareabranca">Endereço</p>
+                    <input class="inputesq" type="email" placeholder="Digite seu Email">
+                    <input class="inputdir" type="text" placeholder="Digite seu endereço">
+                </div>
+                <div class="fundoretangulo">
+                    <p class="fonteareabranca">Celular</p>
+                    <p class="fonteareabranca">Telefone</p>
+                    <input class="inputesq" type="tel" placeholder="Digite seu Número de Celular">
+                    <input class="inputdir" type="tel" placeholder="Digite seu Número de Telefone">
+                </div>
+                <div class="fundoretangulo">
+                    <p class="fonteareabranca">Tipo de<br> Serviço</p>
+                    <select class="inputesq" name="Tipo de Serviço"> 
+                        <option value="none">Selecione o Serviço Desejado</option>
+                    </select>
+                    <p class="fonteareabranca">Anexar Documentos</p>
+                    <input class="inputdir" type="file">
+                </div>
+                <input class="botao2" type="submit" value="Salvar Dados">
+            </div>
+
+        </div>
+    </div>
+    <footer class="rodape">
+        <img class="logouniamerica" src="./img/Uni.png" alt="">
+        <p class="Direitosaut">Crafted by NPJU team © COPYRIGHT 2022</p>
+
+    </footer>
+</body>
+</html>
